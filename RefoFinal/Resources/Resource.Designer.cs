@@ -26,6 +26,10 @@ namespace RefoFinal
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLCrypto.Resource.String.ApplicationName = global::RefoFinal.Resource.String.ApplicationName;
+			global::PCLCrypto.Resource.String.Hello = global::RefoFinal.Resource.String.Hello;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::RefoFinal.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::RefoFinal.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -57,11 +61,75 @@ namespace RefoFinal
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f05000b
+			public const int BtnArticulos = 2131034123;
+			
+			// aapt resource value: 0x7f050006
+			public const int BtnCargarImagen = 2131034118;
+			
+			// aapt resource value: 0x7f050009
+			public const int BtnLogin = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int BtnNuevoArticulo = 2131034122;
+			
+			// aapt resource value: 0x7f050007
+			public const int BtnSincronizar = 2131034119;
+			
+			// aapt resource value: 0x7f050005
+			public const int ImgFoto = 2131034117;
+			
+			// aapt resource value: 0x7f05000d
+			public const int SpinnerZonas = 2131034125;
+			
+			// aapt resource value: 0x7f050004
+			public const int SwitchEstatus = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int TxtAlto = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int TxtAncho = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int TxtNombre = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int TxtPeso = 2131034113;
+			
+			// aapt resource value: 0x7f05000c
+			public const int scrollView1 = 2131034124;
+			
+			// aapt resource value: 0x7f050008
+			public const int textView1 = 2131034120;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Articulo = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int ListaArticulos = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Menu = 2130903043;
 			
 			static Layout()
 			{
