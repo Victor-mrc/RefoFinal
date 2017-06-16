@@ -17,6 +17,7 @@ namespace RefoFinal
     {
         Button BtnNuevoArticulo;
         Button BtnArticulos;
+        Spinner SpinnerZonas;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -26,6 +27,7 @@ namespace RefoFinal
 
             BtnNuevoArticulo = FindViewById<Button>(Resource.Id.BtnNuevoArticulo);
             BtnArticulos = FindViewById<Button>(Resource.Id.BtnArticulos);
+            SpinnerZonas = FindViewById<Spinner>(Resource.Id.SpinnerZonas);
 
             BtnNuevoArticulo.Click += BtnNuevoArticulo_Click;
             BtnArticulos.Click += BtnArticulos_Click;
@@ -54,5 +56,10 @@ namespace RefoFinal
         }
 
        
+       
+        private async void Zonas()
+        {
+            await new Services().BuscarZonas();
+        }
     }
 }

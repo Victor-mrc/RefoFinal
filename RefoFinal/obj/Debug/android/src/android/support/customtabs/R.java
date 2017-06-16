@@ -20,6 +20,7 @@ public final class R {
         public static final int BtnNuevoArticulo=0x7f05000a;
         public static final int BtnSincronizar=0x7f050007;
         public static final int ImgFoto=0x7f050005;
+        public static final int SpinnerZonas=0x7f05000d;
         public static final int SwitchEstatus=0x7f050004;
         public static final int TxtAlto=0x7f050003;
         public static final int TxtAncho=0x7f050002;
